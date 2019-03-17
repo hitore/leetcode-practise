@@ -1,2 +1,2 @@
 # leetcode-practise
-leetcode练习记录
+- leetcode练习记录
