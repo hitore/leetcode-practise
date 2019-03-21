@@ -15,8 +15,8 @@
 // const { createTree } = require('../utils/common.js');
 
 // let root = createTree([6,2,8,0,4,7,9,null,null,3,5]);
-// let p = 2;
-// let q = 4;
+// let p = createTree([2]);
+// let q = createTree([4]);
 
 var lowestCommonAncestor = function(root, p, q) {
     if (root === null) {
