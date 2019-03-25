@@ -8,5 +8,6 @@
 */
 
 var isPowerOfThree = function(n) {
+    // 将n转换成3进制，所以3 -> 10  9 -> 100 27 -> 1000 ，以此类推
     return /^10*$/.test(n.toString(3));
 };
