@@ -5,32 +5,27 @@
 
 2019-03-26
 596 / 596 个通过测试用例
-执行用时 : 448 ms, 在Ugly Number II的JavaScript提交中击败了5.77% 的用户
-内存消耗 : 37.7 MB, 在Ugly Number II的JavaScript提交中击败了0.00% 的用户
+执行用时 : 136 ms, 在Ugly Number II的JavaScript提交中击败了36.54% 的用户
+内存消耗 : 36.6 MB, 在Ugly Number II的JavaScript提交中击败了0.00% 的用户
 */
 
 var nthUglyNumber = function(n) {
     if (n === 0) return 0;
     let arr = [1];
+    // 减少重复的计算
+    let c2 = 0;
+    let c3 = 0;
+    let c5 = 0;
   
-    while (arr.length < n) {
-        const num = arr[arr.length - 1];
-        let dp = Array(3).fill(0);
-        for (let i = 0; i < arr.length; i += 1) {
-            if (arr[i] * 2 > num && dp[0] === 0) {
-                dp[0] = arr[i] * 2;
-            }
-            if (arr[i] * 3 > num && dp[1] === 0) {
-                dp[1] = arr[i] * 3;
-            }
-            if (arr[i] * 5 > num && dp[2] === 0) {
-                dp[2] = arr[i] * 5;
-            }
-            if (dp[0] && dp[1] && dp[2]) {
-                break;
-            }
-        }
-        arr.push(Math.min(...dp));
+    for (let i = 1; i < n; i += 1) {
+        const d2 = arr[c2] * 2;
+        const d3 = arr[c3] * 3;
+        const d5 = arr[c5] * 5;
+        const u = Math.min(d2, d3, d5);
+        if (u === d2) c2 += 1;
+        if (u === d3) c3 += 1;
+        if (u === d5) c5 += 1;
+        arr.push(u);
     }
   
     return arr.pop();
