@@ -8,7 +8,7 @@ function TreeNode(val) {
 }
 
 function createTree(arr, n = null, index = 0) {
-    if (arr[index]) {
+    if (arr[index] !== undefined) {
         n = new TreeNode(arr[index]);
         n.left = createTree(arr, n.left, (index * 2 + 1));
         n.right = createTree(arr, n.right, (index * 2 + 2));
@@ -17,5 +17,6 @@ function createTree(arr, n = null, index = 0) {
 }
 
 module.exports = {
+    TreeNode,
     createTree,
 };
