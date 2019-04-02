@@ -22,6 +22,8 @@
          \
           6
 
+思路参考：https://www.cnblogs.com/nashiyue/p/5313767.html
+
 2019-04-02
 225 / 225 个通过测试用例
 执行用时 : 100 ms, 在Flatten Binary Tree to Linked List的JavaScript提交中击败了39.13% 的用户
