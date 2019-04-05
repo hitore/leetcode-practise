@@ -6,6 +6,8 @@
 输入: nums1 = [1,2,2,1], nums2 = [2,2]
 输出: [2,2]
 
+思路：遍历的时候每当匹配到nums2时，添加进res，然后删除该元素。
+
 2019-03-30
 61 / 61 个通过测试用例
 执行用时 : 124 ms, 在Intersection of Two Arrays II的JavaScript提交中击败了19.42% 的用户
