@@ -5,6 +5,8 @@
 输入: 3
 输出: 5
 
+思路：动态规划
+
 2019-03-22
 19 / 19 个通过测试用例
 执行用时 : 88 ms, 在Unique Binary Search Trees的JavaScript提交中击败了36.73% 的用户
