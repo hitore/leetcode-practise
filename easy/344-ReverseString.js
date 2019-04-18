@@ -5,6 +5,8 @@
 
 你可以假设数组中的所有字符都是 ASCII 码表中的可打印字符。
 
+思路：js的api,reverse
+
 2019-03-28
 478 / 478 个通过测试用例
 执行用时 : 284 ms, 在Reverse String的JavaScript提交中击败了9.17% 的用户
