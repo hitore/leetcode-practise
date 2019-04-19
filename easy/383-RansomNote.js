@@ -9,6 +9,8 @@ canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 
+思路:第一次遍历，记录所有字母出现的次数。第二次遍历，使用记录中的数量，若使用后数量小于0，则匹配失败。
+
 2019-03-25
 126 / 126 个通过测试用例
 执行用时 : 108 ms, 在Ransom Note的JavaScript提交中击败了66.19% 的用户
