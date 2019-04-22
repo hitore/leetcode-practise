@@ -12,6 +12,9 @@
 内存消耗 : 43.3 MB, 在Lowest Common Ancestor of a Binary Search Tree的JavaScript提交中击败了0.00% 的用户
 */
 
+// 思路：根据二叉搜索树的特点，若两个指定节点比root小，则两个都在左子树里。
+// 若两个指定节点比root大，则两个都在右子树里。若一大一小，则root为最近的公共祖先。
+
 // const { createTree } = require('../utils/common.js');
 
 // let root = createTree([6,2,8,0,4,7,9,null,null,3,5]);
