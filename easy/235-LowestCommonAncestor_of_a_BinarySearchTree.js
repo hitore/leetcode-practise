@@ -15,12 +15,6 @@
 // 思路：根据二叉搜索树的特点，若两个指定节点比root小，则两个都在左子树里。
 // 若两个指定节点比root大，则两个都在右子树里。若一大一小，则root为最近的公共祖先。
 
-// const { createTree } = require('../utils/common.js');
-
-// let root = createTree([6,2,8,0,4,7,9,null,null,3,5]);
-// let p = createTree([2]);
-// let q = createTree([4]);
-
 var lowestCommonAncestor = function(root, p, q) {
     if (root === null) {
         return root;
