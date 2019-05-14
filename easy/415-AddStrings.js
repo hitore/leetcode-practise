@@ -1,5 +1,5 @@
 /* 
-Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2
+Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
 
 2019-05-10
 315 / 315 个通过测试用例
