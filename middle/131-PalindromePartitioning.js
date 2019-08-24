@@ -1,7 +1,7 @@
 /* 
 Given a string s, partition s such that every substring of the partition is a palindrome.
 
-Return all possible palindrome partitioning of s.
+Return all possible palindrome partitioning of s
 
 2019-06-05
 22 / 22 个通过测试用例
