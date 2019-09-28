@@ -1,5 +1,5 @@
 /*
- * @lc app=leetcode.cn id=704 lang=javascript.
+ * @lc app=leetcode.cn id=704 lang=javascript
  *
  * [704] 二分查找
  */
