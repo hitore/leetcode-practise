@@ -1,5 +1,5 @@
 /* 
-Find the sum of all left leaves in a given binary tree.
+Find the sum of all left leaves in a given binary tree
 
 2019-05-05
 102 / 102 个通过测试用例
