@@ -1,6 +1,6 @@
 /* 
 Given a binary search tree with non-negative values,
-find the minimum absolute difference between values of any two nodes
+find the minimum absolute difference between values of any two nodes.
 
 2019-06-09
 186 / 186 个通过测试用例
