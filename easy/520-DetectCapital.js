@@ -6,7 +6,7 @@ We define the usage of capitals in a word to be right when one of the following 
 All letters in this word are capitals, like "USA".
 All letters in this word are not capitals, like "leetcode".
 Only the first letter in this word is capital, like "Google".
-Otherwise, we define that this word doesn't use capitals in a right way.
+Otherwise, we define that this word doesn't use capitals in a right way
 
 2019-06-03
 550 / 550 个通过测试用例
