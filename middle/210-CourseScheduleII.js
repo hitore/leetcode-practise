@@ -5,7 +5,7 @@ Some courses may have prerequisites, for example to take course 0 you have to fi
 
 Given the total number of courses and a list of prerequisite pairs, return the ordering of courses you should take to finish all courses.
 
-There may be multiple correct orders, you just need to return one of them. If it is impossible to finish all courses, return an empty array.
+There may be multiple correct orders, you just need to return one of them. If it is impossible to finish all courses, return an empty array
 
 2019-05-07
 44 / 44 个通过测试用例
